@@ -1,0 +1,5 @@
+rootProject.name = 'lab10x-tcampean'
+include 'common'
+include 'server'
+include 'client'
+

@@ -1,0 +1,13 @@
+dependencies {
+    implementation project(path:":core")
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.19'
+    implementation group: 'org.springframework', name: 'spring-web', version: "$springVersion"
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: "$springVersion"
+
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: "$jacksonDatabindVersion"
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: "$jacksonDatabindVersion"
+
+//    compile group: 'javax.servlet', name: 'javax.servlet-api', version: "$javaxServeletApiVersion"
+    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+    implementation group: 'javax.servlet', name: 'javax.servlet-api', version:"$javaxServeletApiVersion"
+}

@@ -1,0 +1,7 @@
+main
+main.controller
+main.domain
+main.domain.validators
+main.repository
+main.view
+repository

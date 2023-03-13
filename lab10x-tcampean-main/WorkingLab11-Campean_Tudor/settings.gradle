@@ -1,0 +1,5 @@
+rootProject.name = 'WorkingLab11-Campean_Tudor'
+include 'client'
+include 'core'
+include 'web'
+
